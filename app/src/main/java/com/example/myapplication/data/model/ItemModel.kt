@@ -1,4 +1,4 @@
-package com.example.myapplication.model
+package com.example.myapplication.data.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -13,5 +13,5 @@ data class ItemModel (
     val city: String,
     @SerializedName("house", alternate = ["home_number"])
     val house: String,
-    var type: Int
+    var type: String
 )

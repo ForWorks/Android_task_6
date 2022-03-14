@@ -1,7 +1,7 @@
-package com.example.myapplication.di.modules
+package com.example.myapplication.presentation.di.modules
 
-import com.example.myapplication.service.ItemService
-import com.example.myapplication.utils.Constants.Companion.BASE_URL
+import com.example.myapplication.data.service.ItemService
+import com.example.myapplication.domain.utils.Constants.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit

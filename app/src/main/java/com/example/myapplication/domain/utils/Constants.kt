@@ -1,4 +1,4 @@
-package com.example.myapplication.utils
+package com.example.myapplication.domain.utils
 
 import com.google.android.gms.maps.model.LatLng
 
@@ -12,10 +12,11 @@ class Constants {
         const val KIOSK = "Инфокиоск"
         const val BANK = "Банк"
         const val ATM = "Банкомат"
+        const val CHECK_CONNECTION = "Проверьте интернет соединение"
 
-        const val ATM_URL = "atm"
-        const val BANK_URL = "infobox"
-        const val KIOSK_URL = "filials_info"
+        const val ATM_QUERY = "atm"
+        const val BANK_QUERY = "infobox"
+        const val KIOSK_QUERY = "filials_info"
         const val BASE_URL = "https://belarusbank.by/api/"
 
         const val COUNT = 10L

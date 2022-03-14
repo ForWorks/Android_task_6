@@ -1,10 +1,10 @@
-package com.example.myapplication.di.modules
+package com.example.myapplication.presentation.di.modules
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.example.myapplication.di.ViewModelKey
-import com.example.myapplication.viewmodel.MainViewModel
-import com.example.myapplication.viewmodel.ViewModelFactory
+import com.example.myapplication.presentation.di.ViewModelKey
+import com.example.myapplication.presentation.ui.viewmodel.MainViewModel
+import com.example.myapplication.presentation.ui.viewmodel.ViewModelFactory
 import dagger.Binds
 import dagger.Module
 import dagger.multibindings.IntoMap

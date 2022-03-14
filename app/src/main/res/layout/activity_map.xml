@@ -5,5 +5,5 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MapActivity"
+    tools:context=".presentation.ui.view.MapActivity"
     tools:layout="@layout/support_simple_spinner_dropdown_item" />
